@@ -94,6 +94,10 @@ footer {
 		margin-right: 2%;
 	}
 
+	.header-name {
+		font-size: 18px;
+	}
+
 	.main-image {
 		margin-top: 10px;
 		height: 300px;
