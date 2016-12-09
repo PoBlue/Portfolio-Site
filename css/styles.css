@@ -13,10 +13,7 @@ body {
 	margin: 10px;
 }
 
-a {
-	color: darkgray;
-}
-
+a, 
 hr {
 	color: darkgray;
 }
@@ -26,7 +23,7 @@ hr {
 	display: flex;
 }
 
-#logo {
+.logo {
 	width: 80px;
 	height: 75px;
 	float: left;
@@ -104,7 +101,11 @@ footer {
 
 	.big-line {
 		background-color: darkgray;
-		height: 3px;
+		height: 2px;
+	}
+
+	.product-description {
+		font-size: 0.8em;
 	}
 }
 
@@ -121,5 +122,9 @@ footer {
 	.product,
 	.product-center {
 		margin-top: 10px;
+	}
+	
+	.product-description {
+		font-size: 1.0em;
 	}
 }
